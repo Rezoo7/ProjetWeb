@@ -1,15 +1,10 @@
-
 h2,h3{
     padding: 10px;
-    color: aqua;
+
 }
 
 p{
     padding: 10px;
-}
-
-.container{
-   color : blue;
 }
 
 #hide ul {
@@ -25,4 +20,19 @@ width: 200px;
 #hide:hover ul li{
     color: white;
     background-color: #EB6864;
+}
+
+footer{
+
+    position: relative;
+    bottom : 0px;
+    height:60px;
+    margin-top : 40px;
+    text-align: center ;
+    display: inline;
+}
+
+footer ul {
+    list-style: none;
+    display: inline;
 }
