@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b578e128-297a-443a-b5ef-51b17f2c369e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaPetiteBaignoire.html" beforeDir="false" afterPath="$PROJECT_DIR$/LaPetiteBaignoire.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="238">
+              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -163,7 +162,7 @@
       <workItem from="1551770139542" duration="4566000" />
       <workItem from="1551800023838" duration="720000" />
       <workItem from="1552374233539" duration="770000" />
-      <workItem from="1552425861712" duration="3502000" />
+      <workItem from="1552425861712" duration="3973000" />
     </task>
     <task id="LOCAL-00001" summary="mise à jour page3">
       <created>1551774065219</created>
@@ -179,11 +178,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552429232242</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="maj css footer + content (en cours)">
+      <created>1552430840924</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552430840924</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11651000" />
+    <option name="totallyTimeSpent" value="12122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -214,7 +220,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mise à jour page3" />
     <MESSAGE value="maj css footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="maj css footer" />
+    <MESSAGE value="maj css footer + content (en cours)" />
+    <option name="LAST_COMMIT_MESSAGE" value="maj css footer + content (en cours)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package-lock.json" />
@@ -261,8 +268,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="238">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
         </state>
       </provider>
     </entry>
