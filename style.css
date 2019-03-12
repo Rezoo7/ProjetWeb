@@ -1,0 +1,28 @@
+
+h2,h3{
+    padding: 10px;
+    color: aqua;
+}
+
+p{
+    padding: 10px;
+}
+
+.container{
+   
+}
+
+#hide ul {
+position: absolute;
+display: none;
+width: 200px;
+}
+
+#hide:hover ul{
+    display: block;
+}
+
+#hide:hover ul li{
+    color: white;
+    background-color: #EB6864;
+}
