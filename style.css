@@ -1,5 +1,4 @@
 /* --------------------------- HEADER MENU ----------------------------- */
-
 h2,h3{
     padding: 10px;
 }
@@ -22,6 +21,21 @@ width: 200px;
     color: white;
     background-color: #EB6864;
 }
+
+#btn-univers{
+    margin-left: 275px;
+}
+
+header ul li{
+    margin-left: 25px;
+}
+
+header .drop1,header .drop2{
+    margin-left: -60px;
+    color: black;
+}
+
+
 
 /* --------------------------- CONTENT ----------------------------- */
 
