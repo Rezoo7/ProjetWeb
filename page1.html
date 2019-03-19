@@ -1,4 +1,5 @@
-html>
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8">
     <title>la petite baignoire - Soins la petite baignoire</title>
@@ -29,23 +30,8 @@ html>
     <meta name="contactState"  content="France" />
     <meta name="Audience"  content="All" />
 
-    <!--[if lt IE 9]>
-    <script src="http://lapetitebaignoire.fr/js/shiv.js"></script>
-    <![endif]-->
-    <link href="http://lapetitebaignoire.fr/css/style.css" media="all" type="text/css" rel="stylesheet">
-    <link href="http://lapetitebaignoire.fr/js/nivo-slider.css" media="all" type="text/css" rel="stylesheet">
-    <script src="http://lapetitebaignoire.fr/js/jquery.js"></script>
-    <script src="http://lapetitebaignoire.fr/js/jquery.fancybox.js"></script>
-    <script src="http://lapetitebaignoire.fr/js/application.js"></script>
-    <script src="http://lapetitebaignoire.fr/js/jquery.nivo.slider.js"></script>
-    <script src="http://lapetitebaignoire.fr/js/jquery.nivo.slider.pack.js"></script>
-    <script type="text/javascript">
-        $(function(){
-
-            $('.fancy').fancybox();
-
-        })
-    </script>
+    <link href="css/style.css" media="all" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap_j.min.css">
 
 </head>
 <body>
@@ -115,7 +101,37 @@ html>
                 </li>
             </ul>
             <a href="http://lapetitebaignoire.fr/la-duree/index" class="brand duree">L&#8217;univers Ladur&eacute;e</a>
-        </div>			</header>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">La Petite Baignoire</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">la petite baignoire <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ma Bulle </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Coiffure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bon Cadeau </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Glamour toujours  </a>
+                    </li>
+                    <button><a href="http://lapetitebaignoire.fr/la-duree/index" class="brand duree">L&#8217;univers Ladur&eacute;e</a></button>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
 
     <section class="container">
         <div class="row">
