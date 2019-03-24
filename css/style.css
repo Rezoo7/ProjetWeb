@@ -35,6 +35,10 @@ header .drop1,header .drop2{
     color: black;
 }
 
+header .dropdown-item{
+    visibility: visible;
+}
+
 
 
 /* --------------------------- CONTENT ----------------------------- */

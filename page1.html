@@ -38,97 +38,115 @@
 
 <div id="salon" class="page ma-bulle-soins-la-petite-baignoire">
     <header class="salon">
-        <div class="clearfix">
-            <a class="brand">la petite baignoire</a>
-            <ul class="menu menu-salon">
 
-                <li class="">
-                    <a href="http://lapetitebaignoire.fr/le-salon/index">La petite baignoire</a>
+        <div id='cssmenu'>
+            <ul>
+                <li><a href='#'><span>Home</span></a></li>
+                <li class='active has-sub'><a href='#'><span>Products</span></a>
                     <ul>
-                        <li class="">
-                            <a href="http://lapetitebaignoire.fr/le-salon/index/plan">Plan et Contact</a>							</li>
+                        <li class='has-sub'><a href='#'><span>Product 1</span></a>
+                            <ul>
+                                <li><a href='#'><span>Sub Product</span></a></li>
+                                <li class='last'><a href='#'><span>Sub Product</span></a></li>
+                            </ul>
+                        </li>
+                        <li class='has-sub'><a href='#'><span>Product 2</span></a>
+                            <ul>
+                                <li><a href='#'><span>Sub Product</span></a></li>
+                                <li class='last'><a href='#'><span>Sub Product</span></a></li>
+                            </ul>
+                        </li>
                     </ul>
-
                 </li>
-
-                <li class="active">
-                    <a href="http://lapetitebaignoire.fr/le-salon/ma-bulle">Ma bulle</a>
-                    <ul>
-                        <li class="active">
-                            <a href="http://lapetitebaignoire.fr/le-salon/ma-bulle/soins-la-petite-baignoire">Soins la petite baignoire</a>							</li>
-                        <li class="">
-                            <a href="http://lapetitebaignoire.fr/le-salon/ma-bulle/soins-dr-haushcka">Soins Dr. Hauschka</a>							</li>
-                        <li class="">
-                            <a href="http://lapetitebaignoire.fr/le-salon/ma-bulle/essie">Soins des mains et des pieds ESSIE</a>							</li>
-                        <li class="">
-                            <a href="http://lapetitebaignoire.fr/le-salon/ma-bulle/soins-florame">Soins Florame</a>							</li>
-                        <li class="">
-                            <a href="http://lapetitebaignoire.fr/le-salon/ma-bulle/soins-au-masculin">Soins au masculin</a>							</li>
-                        <li class="">
-                            <a href="http://lapetitebaignoire.fr/le-salon/ma-bulle/soins-la-duree">Soins inspir&eacute;s par Ladur&eacute;e</a>							</li>
-                    </ul>
-
-                </li>
-
-                <li class="">
-                    <a href="http://lapetitebaignoire.fr/le-salon/coiffure">Coiffure</a>
-                    <ul>
-                        <li class="">
-                            <a href="http://lapetitebaignoire.fr/le-salon/coiffure/visite">Visite</a>							</li>
-                        <li class="">
-                            <a href="http://lapetitebaignoire.fr/le-salon/coiffure/kerastase">Institut K&eacute;rastase</a>							</li>
-                        <li class="">
-                            <a href="http://lapetitebaignoire.fr/le-salon/coiffure/shu-uemura">SHU UEMURA</a>							</li>
-                        <li class="">
-                            <a href="http://lapetitebaignoire.fr/le-salon/coiffure/tarifs">Tarifs</a>							</li>
-                    </ul>
-
-                </li>
-
-                <li class="">
-                    <a href="http://lapetitebaignoire.fr/le-salon/la-boutique">La boutique</a>
-
-                </li>
-
-                <li class="">
-                    <a href="http://lapetitebaignoire.fr/le-salon/bon-cadeau">Bon cadeau</a>
-
-                </li>
-
-                <li class="">
-                    <a href="http://lapetitebaignoire.fr/le-salon/glamour-toujours">Glamour toujours</a>
-
-                </li>
+                <li><a href='#'><span>About</span></a></li>
+                <li class='last'><a href='#'><span>Contact</span></a></li>
             </ul>
-            <a href="http://lapetitebaignoire.fr/la-duree/index" class="brand duree">L&#8217;univers Ladur&eacute;e</a>
         </div>
 
+
+
+        <!-- ----------------------------------------------------------- -->
+
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a class="navbar-brand" href="#">La Petite Baignoire</a>
+            <a class="navbar-brand" href="#">La petite baignoire</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">la petite baignoire <span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Ma Bulle </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Coiffure</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Bon Cadeau </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Glamour toujours  </a>
-                    </li>
-                    <button><a href="http://lapetitebaignoire.fr/la-duree/index" class="brand duree">L&#8217;univers Ladur&eacute;e</a></button>
-                </ul>
 
+                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                        <div class="btn-group" role="group">
+                            <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                La Petite Baignoire
+                            </button>
+
+                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <a class="dropdown-item" href="#">Plans et Contacts</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <li class="nav-item" id="hide">
+                        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                            <button type="button" class="btn btn-primary">Ma Bulle</button>
+                            <div class="btn"></div>
+                        </div>
+                        <ul class="drop1">
+                            <li class="dropdown item" >
+                                <a href="page1.html">Soins la petite baignoire</a>
+                            </li>
+                            <li class="dropdown item" >
+                                <a href="http://lapetitebaignoire.fr/le-salon/ma-bulle/soins-dr-haushcka">Soins Dr. Hauschka</a>
+                            </li>
+                            <li class="dropdown item" >
+                                <a href="http://lapetitebaignoire.fr/le-salon/ma-bulle/essie">Soins des mains et des pieds ESSIE</a>
+                            </li>
+                            <li class="dropdown item" >
+                                <a href="http://lapetitebaignoire.fr/le-salon/ma-bulle/soins-florame">Soins Florame</a>
+                            </li>
+                            <li class="dropdown item" >
+                                <a href="http://lapetitebaignoire.fr/le-salon/ma-bulle/soins-au-masculin">Soins au masculin</a>
+                            </li>
+                            <li class="dropdown item" >
+                                <a href="http://lapetitebaignoire.fr/le-salon/ma-bulle/soins-la-duree">Soins inspir&eacute;s par Ladur&eacute;e</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item" id="hide">
+                        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                            <button type="button" class="btn btn-primary">Coiffure</button>
+                            <div class="btn"></div>
+                        </div>
+                        <ul class="drop2">
+                            <li class="dropdown item">
+                                <a href="http://lapetitebaignoire.fr/le-salon/coiffure/visite">Visite</a>
+                            </li>
+                            <li class="dropdown item">
+                                <a href="http://lapetitebaignoire.fr/le-salon/coiffure/kerastase">Institut K&eacute;rastase</a>
+                            </li>
+                            <li class="dropdown item">
+                                <a href="http://lapetitebaignoire.fr/le-salon/coiffure/shu-uemura">SHU UEMURA</a>
+                            </li>
+                            <li class="dropdown item">
+                                <a href="http://lapetitebaignoire.fr/le-salon/coiffure/tarifs">Tarifs</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <button type="button" class="btn btn-primary">La Boutique</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bon Cadeau</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Glamour Toujours</a>
+                    </li>
+                    <button type="button" id="btn-univers" class="btn btn-secondary"><a href="http://lapetitebaignoire.fr/la-duree/index" class="brand duree">L'Univers Ladurée</a>></button>
+                </ul>
             </div>
         </nav>
     </header>
@@ -139,6 +157,8 @@
 
                 <div class="salon-base">
                     <article class="/*half*/ title-pink">
+
+
                         <h2>Les soins “la petite baignoire“</h2>
                         <h3>le rendez-vous girly</h3>
                         <p>Envie d’un véritable conseil beauté avec quelqu’un de disponible qui saura vous écouter
@@ -185,6 +205,7 @@
                         <p>
                             L’épilation devient enfin un agréable moment de détente. Douceur, efficacité, rigueur, sont les qualificatifs d’un travail irréprochable suivi de son soin précieux nourrissant et apaisant.<br />Le tout sera effectué avec des produits bio.
                         </p>
+                        
                         <table class="table">
                             <tr>
                                 <td class="title">lèvre</td>
