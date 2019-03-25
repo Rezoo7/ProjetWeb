@@ -1,43 +1,13 @@
 /* --------------------------- HEADER MENU ----------------------------- */
-h2,h3{
-    padding: 10px;
-}
-
-p{
-    padding: 10px;
-}
-
-#hide ul {
-position: absolute;
-display: none;
-width: 200px;
-}
-
-#hide:hover ul{
-    display: block;
-}
-
-#hide:hover ul li{
-    color: white;
-    background-color: #EB6864;
-}
-
-#btn-univers{
-    margin-left: 275px;
-}
 
 header ul li{
     margin-left: 25px;
 }
 
-header .drop1,header .drop2{
-    margin-left: -60px;
-    color: black;
+#univers_laduree{
+    float: right;
 }
 
-header .dropdown-item{
-    visibility: visible;
-}
 
 
 
