@@ -1,0 +1,20 @@
+h2{
+    text-align: center;
+}
+
+.parags{
+    border: solid #0f0f0f;
+    display: block;
+    width: 50%;
+
+    margin-bottom: 10px;
+
+}
+.articles{
+    display: inline-block;
+}
+
+
+article{
+    width: 100%;
+}
