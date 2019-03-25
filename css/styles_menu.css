@@ -162,7 +162,6 @@
 }
 
 #cssmenu ul li{
-  margin-left: 20px;
-  padding-right: 20px;
+  width: 200px;
 
 }
