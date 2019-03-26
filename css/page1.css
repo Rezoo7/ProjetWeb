@@ -4,6 +4,11 @@ h2{
     text-align: center;
 }
 
+article h2{
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
 .articles .parag1{
     float:left;
     width: 400px;
@@ -25,6 +30,12 @@ h2{
 
     margin: 70px 0 auto;
     width: 50%;
+}
+
+#yeux_biche{
+    margin-left: 60%;
+    width: 40%;
+    margin-top: 90px;
 }
 
 table #tableau.table.table-hover{
