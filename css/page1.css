@@ -1,20 +1,40 @@
 h2{
+    width: 100%;
+    margin-top: 40px;
     text-align: center;
 }
 
-.parags{
-    border: solid #0f0f0f;
-    display: block;
+.articles .parag1{
+    float:left;
+    width: 400px;
+}
+
+.articles .parag2{
+
+    margin-left:60%
+}
+
+.articles .groupe1{
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.solo{
+
+    margin: 70px 0 auto;
     width: 50%;
-
-    margin-bottom: 10px;
-
-}
-.articles{
-    display: inline-block;
 }
 
+table #tableau.table.table-hover{
+    margin: auto;
+}
+table {
+    text-align: center;
+}
 
 article{
+    margin: auto;
     width: 100%;
 }

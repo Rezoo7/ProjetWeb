@@ -1,0 +1,8 @@
+RENDU => alberic.chemana@univ-nantes.fr Avec noms,prenoms groupes
+
+Nom fichier zippé = Groupe2-info2-projet
+
+A l'interieur : BRIEF (Contexte et périmètre du projet...) + Avant/Après => en pdf
+                Prototype HTML (2 à 3 pages)
+                Responsive
+                Design
