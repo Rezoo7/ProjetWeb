@@ -14,21 +14,27 @@ header ul li{
 /* --------------------------- CONTENT ----------------------------- */
 
 article{
-    margin-left: -180px;
+    margin-left: -5%;
     margin-top: 50px;
 
     float: left;
-    width: 500px;
+    width: 50%;
 
 }
+
+.hidden-md-down{
+    margin-left: 20%;
+}
+
 
 #img_content{
-    margin-top: 200px;
-    margin-left: 250px;
+    margin-top: 0%;
+    margin-left: 50%;
 
-    height:  500px;
-    width: 50%;
+    height:  50%;
+    width: 40%;
 }
+
 
 
 
