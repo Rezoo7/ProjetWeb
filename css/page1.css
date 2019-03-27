@@ -28,14 +28,23 @@ article h2{
 
 .solo{
 
-    margin: 70px 0 auto;
+    margin-left: 270px;
     width: 50%;
+    text-align: center;
 }
 
 #yeux_biche{
     margin-left: 60%;
     width: 40%;
     margin-top: 90px;
+}
+
+article #japonisante{
+    text-align: center;
+}
+
+article #pjap{
+    margin-left: 40px;
 }
 
 table #tableau.table.table-hover{
