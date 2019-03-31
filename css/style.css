@@ -29,10 +29,17 @@ article{
 
 #img_content{
     margin-top: 0%;
-    margin-left: 50%;
+    margin-left: 20%;
 
     height:  50%;
-    width: 40%;
+    width: 60%;
+}
+
+.image{
+    position: relative;
+    display: inline-block;
+    bottom: 500px;
+    left: 400px;
 }
 
 
